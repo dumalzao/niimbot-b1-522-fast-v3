@@ -1,0 +1,22 @@
+# Never commit proprietary / device firmware images or raw dumps
+*.bin
+*.hex
+*.uf2
+*.dfu
+*.fw
+*.elf
+*.img
+*.dump
+*.dmp
+
+# Local user data and logs
+*.log
+*.zip
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
+Thumbs.db
